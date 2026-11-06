@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="USMILE, consultorio dental. Especialidades odontológicas, productos de higiene bucal y reserva de citas.">
+    <meta name="theme-color" content="#502D55">
+
+    <title>USMILE | Consultorio Dental</title>
+
+    <link rel="icon" href="logo.jpeg">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<section class="bienvenida" id="bienvenida">
+
+    <div class="bienvenida-contenido">
+
+        <div class="contenedor-logo">
+            <img src="logo.jpeg" alt="Logo USMILE">
+        </div>
+
+        <h1 class="solo-lectores">USMILE</h1>
+
+        <p class="subtitulo-inicial">Consultorio dental</p>
+
+        <p class="frase-inicial">Tu sonrisa, nuestra prioridad.</p>
+
+        <button class="boton-iniciar" id="btnIniciar">
+            Iniciar <span>→</span>
+        </button>
+
+    </div>
+
+</section>
+
+<div id="paginaPrincipal" class="oculto">
+
+<header class="encabezado">
+
+    <a href="#inicio" class="marca">
+        <img src="logo.jpeg" alt="" class="logo">
+        <span class="nombre">USMILE</span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">☰</button>
+
+    <nav class="menu" id="menu" aria-label="Principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#productos">Productos</a>
+        <a href="#reserva">Reserva</a>
+        <a href="#contactos">Contactos</a>
+    </nav>
+
+</header>
+
+<section class="inicio" id="inicio">
+
+    <div class="imagen-portada"></div>
+
+    <div class="contenido-inicio">
+
+        <p class="subtitulo">Bienvenidos a USMILE</p>
+
+        <h1>
+            Devolviendo sonrisas
+            <br>
+            <span id="textoAnimado"></span><span class="cursor" aria-hidden="true">|</span>
+        </h1>
+
+        <p class="descripcion">
+            Cuidamos tu salud bucal con atención profesional,
+            dedicación y compromiso.
+            Tu sonrisa es nuestra prioridad.
+        </p>
+
+        <div class="acciones-inicio">
+            <a href="#reserva" class="boton">Reserva tu cita</a>
+            <a href="#servicios" class="boton boton-secundario">Ver especialidades</a>
+        </div>
+
+    </div>
+    <div class="foto-inicio">
+        <img src="inicio.jpeg" alt="consultorio USMILE">
+    </div>
+
+</section>
+
+
+<section class="nosotros">
+
+    <p class="etiqueta">Conócenos</p>
+
+    <h2>Sobre nosotros</h2>
+
+    <h3>Consultorio Dental USMILE</h3>
+
+    <p>
+        USMILE es un consultorio dental dedicado al cuidado
+        de la salud bucal. Nuestro objetivo es brindar atención
+        odontológica de calidad, ofreciendo confianza,
+        comodidad y dedicación a nuestros pacientes.
+    </p>
+
+</section>
+
+
+<section class="seccion" id="servicios">
+
+    <div class="titulo-seccion">
+        <p class="etiqueta">Nuestros tratamientos</p>
+        <h2>Especialidades odontológicas</h2>
+        <p>
+            Contamos con diferentes especialidades para cuidar
+            tu salud bucal y mantener una sonrisa saludable.
+        </p>
+    </div>
+
+    <div class="contenedor-tarjetas">
+
+        <article class="tarjeta">
+            <img src="servicio1.jpg" alt="Odontología general y preventiva" loading="lazy">
+            <div class="tarjeta-contenido">
+                <h3>Odontología General y Preventiva</h3>
+                <p>Cuidamos tu salud bucal mediante:</p>
+                <ul>
+                    <li>Limpiezas dentales profesionales.</li>
+                    <li>Revisiones periódicas y diagnósticos.</li>
+                    <li>Selladores para prevenir caries.</li>
+                    <li>Tratamiento de caries y empastes.</li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="tarjeta">
+            <img src="servicio2.jpg" alt="Endodoncia" loading="lazy">
+            <div class="tarjeta-contenido">
+                <h3>Endodoncia</h3>
+                <p>
+                    Tratamiento de conductos para tratar daños
+                    o infecciones en la pulpa dental, buscando
+                    conservar la pieza dental.
+                </p>
+            </div>
+        </article>
+
+        <article class="tarjeta">
+            <img src="servicio3.jpg" alt="Ortodoncia y ortopedia maxilar" loading="lazy">
+            <div class="tarjeta-contenido">
+                <h3>Ortodoncia y Ortopedia Maxilar</h3>
+                <p>Corrección de la posición de los dientes y de la mordida mediante:</p>
+                <ul>
+                    <li>Brackets metálicos.</li>
+                    <li>Brackets estéticos.</li>
+                    <li>Brackets de zafiro.</li>
+                    <li>Alineadores invisibles.</li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="tarjeta">
+            <img src="servicio4.jpg" alt="Estética dental" loading="lazy">
+            <div class="tarjeta-contenido">
+                <h3>Estética Dental</h3>
+                <p>Tratamientos para mejorar la apariencia y estética de la sonrisa.</p>
+                <ul>
+                    <li>Blanqueamiento dental profesional.</li>
+                    <li>Carillas de porcelana o resina.</li>
+                    <li>Diseño de sonrisa personalizado.</li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="tarjeta">
+            <img src="servicio5.jpg" alt="Periodoncia" loading="lazy">
+            <div class="tarjeta-contenido">
+                <h3>Periodoncia</h3>
+                <p>
+                    Prevención, diagnóstico y tratamiento
+                    de enfermedades de las encías y los
+                    tejidos que sostienen los dientes.
+                </p>
+                <ul>
+                    <li>Tratamiento de gingivitis.</li>
+                    <li>Tratamiento de periodontitis.</li>
+                    <li>Cuidado de las encías.</li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="tarjeta">
+            <img src="servicio6.jpg" alt="Cirugía oral y maxilofacial" loading="lazy">
+            <div class="tarjeta-contenido">
+                <h3>Cirugía Oral y Maxilofacial</h3>
+                <p>Atención especializada para procedimientos de la cavidad bucal.</p>
+                <ul>
+                    <li>Extracciones simples.</li>
+                    <li>Extracciones complejas.</li>
+                    <li>Extracción de muelas del juicio.</li>
+                    <li>Cirugías bucales menores.</li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="tarjeta">
+            <img src="servicio7.jpg" alt="Rehabilitación oral e implantes" loading="lazy">
+            <div class="tarjeta-contenido">
+                <h3>Rehabilitación Oral e Implantes</h3>
+                <p>Recuperación de la funcionalidad y estética dental mediante:</p>
+                <ul>
+                    <li>Implantes dentales.</li>
+                    <li>Prótesis fijas.</li>
+                    <li>Coronas y puentes.</li>
+                    <li>Prótesis removibles.</li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="tarjeta">
+            <img src="servicio8.jpg" alt="Odontopediatría" loading="lazy">
+            <div class="tarjeta-contenido">
+                <h3>Odontopediatría</h3>
+                <p>
+                    Atención odontológica especializada
+                    y adaptada para cuidar la salud dental
+                    de niños y adolescentes.
+                </p>
+            </div>
+        </article>
+
+    </div>
+
+</section>
+
+<section class="seccion productos" id="productos">
+
+    <div class="titulo-seccion">
+        <p class="etiqueta">Cuida tu sonrisa</p>
+        <h2>Nuestros productos</h2>
+        <p>Encuentra productos para mantener una buena higiene y cuidado bucal.</p>
+    </div>
+
+    <div class="contenedor-tarjetas">
+
+        <article class="tarjeta">
+            <img src="producto1.jpg" alt="Cepillo dental" loading="lazy">
+            <div class="tarjeta-contenido">
+                <h3>Cepillo dental</h3>
+                <p>Para la limpieza diaria de los dientes.</p>
+                <strong>Bs. 20</strong>
+            </div>
+        </article>
+
+        <article class="tarjeta">
+            <img src="producto2.jpg" alt="Pasta dental" loading="lazy">
+            <div class="tarjeta-contenido">
+                <h3>Pasta dental</h3>
+                <p>Producto para la higiene bucal diaria.</p>
+                <strong>Bs. 25</strong>
+            </div>
+        </article>
+
+        <article class="tarjeta">
+            <img src="producto3.jpg" alt="Hilo dental" loading="lazy">
+            <div class="tarjeta-contenido">
+                <h3>Hilo dental</h3>
+                <p>Para limpiar los espacios entre los dientes.</p>
+                <strong>Bs. 12</strong>
+            </div>
+        </article>
+
+        <article class="tarjeta">
+            <img src="producto4.jpg" alt="Enjuague bucal" loading="lazy">
+            <div class="tarjeta-contenido">
+                <h3>Enjuague bucal</h3>
+                <p>Complemento para la higiene de la boca.</p>
+                <strong>Bs. 30</strong>
+            </div>
+        </article>
+
+        <article class="tarjeta">
+            <img src="producto5.jpg" alt="Cepillo eléctrico" loading="lazy">
+            <div class="tarjeta-contenido">
+                <h3>Cepillo eléctrico</h3>
+                <p>Cepillo eléctrico para el cuidado dental.</p>
+                <strong>Bs. 120</strong>
+            </div>
+        </article>
+
+        <article class="tarjeta">
+            <img src="producto6.jpg" alt="Cepillos interdentales" loading="lazy">
+            <div class="tarjeta-contenido">
+                <h3>Cepillos interdentales</h3>
+                <p>Para limpiar espacios entre los dientes.</p>
+                <strong>Bs. 25</strong>
+            </div>
+        </article>
+
+        <article class="tarjeta">
+            <img src="producto7.jpg" alt="Limpiador lingual" loading="lazy">
+            <div class="tarjeta-contenido">
+                <h3>Limpiador lingual</h3>
+                <p>Accesorio para la higiene de la lengua.</p>
+                <strong>Bs. 18</strong>
+            </div>
+        </article>
+
+        <article class="tarjeta">
+            <img src="producto8.jpg" alt="Tabletas limpiadoras" loading="lazy">
+            <div class="tarjeta-contenido">
+                <h3>Tabletas limpiadoras</h3>
+                <p>Para la limpieza de prótesis dentales.</p>
+                <strong>Bs. 35</strong>
+            </div>
+        </article>
+        <article class="tarjeta proximo">
+         <img src="proxiomamente.jpeg" alt="Cepillo eléctrico sónico Y1S rosa" loading="lazy">
+            <div class="tarjeta-contenido">
+              <h3>Cepillo sónico Y1S rosa</h3>
+               <p>Cepillo eléctrico sónico con 3 modos de cepillado y 2 cabezales extra.</p>
+               <strong class="proximamente">Próximamente</strong>
+            </div>
+        </article>
+
+        <article class="tarjeta proximo">
+            <img src="proximamente1.jpeg" alt="Cepillo eléctrico sónico Y1S azul" loading="lazy">
+            <div class="tarjeta-contenido">
+                <h3>Cepillo sónico Y1S azul</h3>
+                <p>Cepillo eléctrico sónico con 3 modos de cepillado y 2 cabezales extra.</p>
+                <strong class="proximamente">Próximamente</strong>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section class="seccion reserva" id="reserva">
+
+    <div class="titulo-seccion">
+        <p class="etiqueta">Agenda tu visita</p>
+        <h2>Reserva tu cita</h2>
+        <p>Completa el formulario para solicitar una cita.</p>
+    </div>
+
+    <form id="formReserva" class="formulario">
+
+        <div class="fila">
+            <div class="campo">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" placeholder="Escribe tu nombre" autocomplete="name" required>
+            </div>
+
+            <div class="campo">
+                <label for="celular">Número de Celular</label>
+                <input type="tel" id="celular" placeholder="Ej. 591700000" autocomplete="tel" inputmode="numeric" required>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="campo">
+                <label for="fecha">Fecha de la cita</label>
+                <input type="date" id="fecha" required>
+            </div>
+
+            <div class="campo">
+                <label for="hora">Hora</label>
+                <input type="time" id="hora" required>
+            </div>
+        </div>
+
+        <div class="campo">
+            <label for="servicio">Especialidad</label>
+            <select id="servicio" required>
+                <option value="">Selecciona una especialidad</option>
+                <option>Odontología General y Preventiva</option>
+                <option>Endodoncia</option>
+                <option>Ortodoncia y Ortopedia Maxilar</option>
+                <option>Estética Dental</option>
+                <option>Periodoncia</option>
+                <option>Cirugía Oral y Maxilofacial</option>
+                <option>Rehabilitación Oral e Implantes</option>
+                <option>Odontopediatría</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label for="observaciones">Observaciones</label>
+            <textarea id="observaciones" placeholder="Escribe alguna observación"></textarea>
+        </div>
+
+        <button type="submit" class="boton">Solicitar reserva</button>
+
+    </form>
+
+    <div id="resultado" aria-live="polite"></div>
+
+</section>
+
+<section class="seccion contactos" id="contactos">
+
+    <div class="titulo-seccion">
+        <p class="etiqueta">Estamos para ayudarte</p>
+        <h2>Contáctanos</h2>
+        <p>Será un gusto atenderte y cuidar de tu sonrisa.</p>
+    </div>
+
+    <div class="informacion-contacto">
+
+        <div class="contacto-item">
+            <h3>Dirección</h3>
+            <p>Cota cota Av. Muñoz Reyes C.32 Nº1015</p>
+        </div>
+        <div class="contacto-item">
+            <h3>Horario de atención</h3>
+            <p>08:00 A 18:00</p>
+        </div>
+
+        <div class="contacto-item">
+            <h3>WhatsApp</h3>
+            <p>+59164212773.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    <div class="footer-logo">
+        <img src="logo.jpeg" alt="">
+        <h2>USMILE</h2>
+    </div>
+
+    <p>Tu sonrisa, nuestra prioridad.</p>
+
+    <p>© 2026 USMILE - Elaborado por ALISON LIMACHI.</p>
+
+</footer>
+
+</div>
+
+<script src="java.js"></script>
+
+</body>
+</html>
